@@ -3,3 +3,13 @@ This is a repository of commonly used Oracle scripts.
 
 ## Prerequisites
 In order to run the SQL files, you need to have an Oracle database.
+
+## Procedure
+```
+SQL> @<sql_file>
+```
+## Examples
+```
+SQL> @tab_desc.sql
+SQL> @rebuild_indexes.sql
+```
